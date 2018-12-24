@@ -116,6 +116,7 @@ int main() {
 Αυτές οι παρατηρήσεις μας οδηγούν στον αλγόριθμο όπου αφαιρούμε είτε την αρχή είτε το τέλος από το διάστημα $$[\mathit{lo}, \mathit{hi}]$$ βάσει του $$Α[\mathit{lo}] + Α[\mathit{hi}]$$, μέχρι να βρούμε ένα καλό ζεύγος ή να είναι άδειο το διάστημα. Αφού σε κάθε επανάληψη το μήκος του διαστήματος μικραίνει κατά $$1$$, κάθε ερώτημα θέλει $$O(N)$$ χρόνο. Άρα ο αλγόριθμος έχει πολυπλοκότητα $$O(N \log N + Q N)$$ και μνήμη $$O(N)$$.
 
 {% highlight c++ %}
+#include <algorithm>
 #include <cstdio>
 
 const size_t MAXN = 1000000;
@@ -129,7 +130,7 @@ bool doesPairExist(long target) {
     long sum = A[lo] + A[hi];
     if (sum == target) return true;
     else if (sum > target) --hi;
-    else --lo;
+    else ++lo;
   }
   return false;
 }
@@ -140,15 +141,19 @@ int main() {
   for (long i = 0; i < N; ++i) {
     fscanf(fi, "%ld", &A[i]);
   }
+  fclose(fi);
+  
+  std::sort(A, A+N);
+  
   FILE *fo = fopen("sumpair.out", "w");
   for (long j = 0; j < Q; ++j) {
     long target;
     fscanf(fi, "%ld", &target);
     fprintf(fo, "%s\n", doesPairExist(target) ? "true" : "false");
   }
-  fclose(fi);
   fclose(fo);
   return 0;
 }
+
 
 {% endhighlight %}
