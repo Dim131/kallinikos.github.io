@@ -1,7 +1,7 @@
 ---
-title: "26ος ΠΔΠ Γ' Φάση: Άθροισμα ζευγών (sumpair)"
+title: "26ος ΠΔΠ Γ' Φάση: Άθροισμα ζευγών (sumpair) - Λύση"
 layout: post
-tags: [Λύσεις, ΠΔΠ]
+tags: []
 comments: true
 ---
 

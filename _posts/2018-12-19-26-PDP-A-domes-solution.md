@@ -1,7 +1,7 @@
 ---
-title: "26ος ΠΔΠ Α' Φάση: Δομές (domes)"
+title: "26ος ΠΔΠ Α' Φάση: Δομές (domes) - Λύση"
 layout: post
-tags: [Λύσεις, ΠΔΠ]
+tags: []
 comments: true
 ---
 

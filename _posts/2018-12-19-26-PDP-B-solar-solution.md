@@ -1,7 +1,7 @@
 ---
-title: "26ος ΠΔΠ Β' Φάση: Ηλιακός άνεμος (solar)"
+title: "26ος ΠΔΠ Β' Φάση: Ηλιακός άνεμος (solar) - Λύση"
 layout: post
-tags: [Λύσεις, ΠΔΠ]
+tags: []
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: "26ος ΠΔΠ Γ' Φάση: Μετατροπή αριθμών (numbase)"
+title: "26ος ΠΔΠ Γ' Φάση: Μετατροπή αριθμών (numbase) - Λύση"
 layout: post
-tags: [Λύσεις, ΠΔΠ]
+tags: []
 comments: true
 ---
 

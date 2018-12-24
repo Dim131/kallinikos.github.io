@@ -1,7 +1,7 @@
 ---
-title: "26ος ΠΔΠ Β' Φάση: Ρυθμική γυμναστική (ensemble)"
+title: "26ος ΠΔΠ Β' Φάση: Ρυθμική γυμναστική (ensemble) - Λύση"
 layout: post
-tags: [Λύσεις, ΠΔΠ]
+tags: []
 comments: true
 ---
 
