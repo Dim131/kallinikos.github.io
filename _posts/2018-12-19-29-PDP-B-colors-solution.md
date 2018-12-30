@@ -1,5 +1,5 @@
 ---
-title: "29ος ΠΔΠ Β' Φάση: Πολύχρωμη κορδέλα (colors)"
+title: "29ος ΠΔΠ Β' Φάση: Πολύχρωμη κορδέλα (colors) - Λύση"
 layout: post
 tags: []
 comments: true
